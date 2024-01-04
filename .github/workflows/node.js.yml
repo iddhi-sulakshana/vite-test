@@ -22,3 +22,7 @@ jobs:
       working-directory: backend
     - run: npm test
       working-directory: backend
+    - run: npm i
+      working-directory: frontend
+    - run: npm test
+      working-directory: frontend
